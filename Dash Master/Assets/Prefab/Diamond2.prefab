@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6388010185412353059
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2765656122436529937, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 910a92f8d992d6643b4dfcb208b36625, type: 2}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8535535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.35355338
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.35355338
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1464466
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627833742303601788, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969574219093654840, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
+      propertyPath: m_Name
+      value: Diamond2 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbfded368c6d45146b1f1072d49fa8e4, type: 3}
