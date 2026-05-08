@@ -1,6 +1,5 @@
-using System;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
 
 public class BallController : MonoBehaviour
 {
@@ -24,16 +23,13 @@ public class BallController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Start()
-    {
-    }
-
     void Update()
     {
 
         if (!gameOverFlag)
         {
-            if (Input.GetMouseButtonDown(0))
+            //if (Input.GetMouseButtonDown(0))
+            if (Pointer.current != null && Pointer.current.press.wasPressedThisFrame)
             {
                 if (!startFlag)
                 {
@@ -69,27 +65,6 @@ public class BallController : MonoBehaviour
 
             }
         }
-        /* Temizlenecek
-        if (!startFlag) 
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                rb.linearVelocity = new Vector3(speed, 0, 0);
-                startFlag = true;
-            }
-        }
-
-        if (!Physics.Raycast(transform.position, Vector3.down, 1f))
-        {
-            gameOverFlag = true;
-            rb.useGravity = true;
-        }
-
-        if (Input.GetMouseButtonDown(0) && !gameOverFlag) 
-        {
-            SwitchDirection();
-        }
-        */
     }
 
     public void Quit()
